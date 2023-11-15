@@ -1,0 +1,30 @@
+[data-start] {
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: 50px;
+  padding: 10px 20px;
+  border: 1px solid darkgreen;
+  background-color: greenyellow;
+  border-radius: 5px;
+  color: darkslategray;
+  font-weight: 700;
+}
+
+[data-start]:disabled {
+  background-color: lightgray;
+}
+
+[data-stop] {
+  display: inline-flex;
+  margin-right: auto;
+  padding: 10px 20px;
+  border: 1px solid darkred;
+  background-color: tomato;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+
+[data-stop]:disabled {
+  background-color: lightgray;
+}

@@ -1,0 +1,37 @@
+.flatpickr-input {
+  width: 160px;
+  height: 40px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 5px 15px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+[data-start] {
+  width: 80px;
+  height: 40px;
+  background-color: lightseagreen;
+  color: white;
+  font-weight: 600;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
+[data-start]:disabled {
+  background-color: lightgray;
+}
+
+.timer {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
